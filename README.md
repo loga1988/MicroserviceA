@@ -23,3 +23,5 @@ Commercial -- AWS API gateway, Azure API management
 Open source -- Zuul gateway 
 custom -- Spring cloud gateway
 
+proxy pattern -- setting up a service that acts as an intermediary between clients and backend services
+

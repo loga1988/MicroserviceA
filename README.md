@@ -25,5 +25,9 @@ custom -- Spring cloud gateway
 
 proxy pattern -- setting up a service that acts as an intermediary between clients and backend services
 
-Okta -- Okta is a cloud-based identity and access management service. It provides features for secure authentication and authorization,
+Okta -- Okta is a cloud-based identity and access management service. It provides features for secure authentication and authorization.
+
+Different ways of communicating between microservices 
+HTTP/REST -- synchronous
+messaging queue/event streaming -- async 
 

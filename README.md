@@ -3,3 +3,23 @@ Service Discovery, Service Registry and Load Balancer Service Discovery is a mec
 Service Discovery -- Service Provider + Service Registry + Service Consumer
 
 Circuit Breaker : When a request fails to the service again and again then circuit breaker opens and halts all the requests to the service Closed State, Open State, Half-open state
+
+API Gateway -- 
+
+client interacts with API gateway and the gateway routes the requests to different microservices based on the url, http method
+Handles the transaction between microservices and also the routing 
+
+design patterns of microservice 
+
+1) Service Discovery pattern
+2) API gateway pattern
+3) Database per service pattern
+4) circuit breaker pattern
+5) Saga Pattern
+6) Proxy pattern
+
+API gateway pattern 
+Commercial -- AWS API gateway, Azure API management
+Open source -- Zuul gateway 
+custom -- Spring cloud gateway
+
